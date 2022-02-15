@@ -10,7 +10,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: staging.namix.io
+    http:
       paths:
       - path: /
         pathType: Prefix
